@@ -19,11 +19,10 @@ jobs:
         ls -la
         echo ""
         echo "=== Xcode project ==="
-        ls -la InvestmentAdvisor/
+        ls -la InvestmentAdvisor.xcodeproj/
       
     - name: Build iOS App
       run: |
-        cd InvestmentAdvisor
         echo "=== Available schemes ==="
         xcodebuild -list -project InvestmentAdvisor.xcodeproj
         
@@ -44,7 +43,6 @@ jobs:
       run: |
         echo "=== Build products ==="
         find . -name "*.app" 2>/dev/null || echo "No .app files found"
-        find . -d 2>/dev/null || true
         
     - name: Create IPA
       run: |

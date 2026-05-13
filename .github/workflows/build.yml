@@ -1,0 +1,77 @@
+name: Build iOS IPA
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    - name: Setup Xcode
+      run: |
+        sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+        
+    - name: List available simulators
+      run: xcrun simctl list devices available | head -30
+      
+    - name: Build project
+      run: |
+        cd InvestmentAdvisor
+        xcodebuild -project InvestmentAdvisor.xcodeproj \
+          -scheme InvestmentAdvisor \
+          -configuration Debug \
+          -destination 'platform=iOS Simulator,name=iPhone 15' \
+          build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
+        
+    - name: Build IPA
+      run: |
+        cd InvestmentAdvisor
+        xcodebuild -project InvestmentAdvisor.xcodeproj \
+          -scheme InvestmentAdvisor \
+          -configuration Debug \
+          -destination 'platform=iOS Simulator,name=iPhone 15' \
+          -archivePath build/InvestmentAdvisor.xcarchive \
+          archive CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
+        
+    - name: Export IPA
+      run: |
+        cd InvestmentAdvisor
+        xcodebuild -exportArchive \
+          -archivePath build/InvestmentAdvisor.xcarchive \
+          -exportPath output \
+          -exportOptionsPlist << 'EOF'
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0">
+          <dict>
+              <key>method</key>
+              <string>developer</string>
+              <key>teamID</key>
+              <string></string>
+          </dict>
+          </plist>
+        EOF
+        
+    - name: Upload IPA
+      uses: actions/upload-artifact@v3
+      with:
+        name: InvestmentAdvisor-IPA
+        path: InvestmentAdvisor/output/InvestmentAdvisor.ipa
+        
+    - name: Create Release
+      if: github.ref == 'refs/heads/main'
+      uses: softprops/action-gh-release@v1
+      with:
+        files: InvestmentAdvisor/output/InvestmentAdvisor.ipa
+        name: InvestmentAdvisor v1.0
+        tag_name: v1.0
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

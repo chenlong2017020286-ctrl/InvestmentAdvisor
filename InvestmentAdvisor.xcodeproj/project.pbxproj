@@ -22,7 +22,6 @@
         AAAAAA010000000100000019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAAAA01000000010000001A /* Assets.xcassets */; };
         AAAAAA01000000010000001B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAAAAA01000000010000001C /* LaunchScreen.storyboard */; };
         AAAAAA01000000010000001D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAAAAA01000000010000001E /* Main.storyboard */; };
-        AAAAAA01000000010000001F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAAAAA010000000100000020 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,12 +40,12 @@
         AAAAAA01000000010000001A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
         AAAAAA01000000010000001C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
         AAAAAA01000000010000001E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-        AAAAAA010000000100000020 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-        AAAAAA010000000100000021 /* InvestmentAdvisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvestmentAdvisor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        AAAAAA01000000010000001F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        AAAAAA010000000100000020 /* InvestmentAdvisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvestmentAdvisor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-        AAAAAA010000000100000022 /* Frameworks */ = {
+        AAAAAA010000000100000021 /* Frameworks */ = {
             isa = PBXFrameworksBuildPhase;
             buildActionMask = 2147483647;
             files = (
@@ -56,15 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-        AAAAAA010000000100000023 = {
+        AAAAAA010000000100000022 = {
             isa = PBXGroup;
             children = (
-                AAAAAA010000000100000024 /* InvestmentAdvisor */,
-                AAAAAA010000000100000021 /* InvestmentAdvisor.app */,
+                AAAAAA010000000100000023 /* InvestmentAdvisor */,
+                AAAAAA010000000100000020 /* InvestmentAdvisor.app */,
             );
             sourceTree = "<group>";
         };
-        AAAAAA010000000100000024 /* InvestmentAdvisor */ = {
+        AAAAAA010000000100000023 /* InvestmentAdvisor */ = {
             isa = PBXGroup;
             children = (
                 AAAAAA010000000100000002 /* AppDelegate.swift */,
@@ -82,7 +81,7 @@
                 AAAAAA01000000010000001A /* Assets.xcassets */,
                 AAAAAA01000000010000001C /* LaunchScreen.storyboard */,
                 AAAAAA01000000010000001E /* Main.storyboard */,
-                AAAAAA010000000100000020 /* Info.plist */,
+                AAAAAA01000000010000001F /* Info.plist */,
             );
             path = InvestmentAdvisor;
             sourceTree = "<group>";
@@ -90,13 +89,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-        AAAAAA010000000100000025 /* InvestmentAdvisor */ = {
+        AAAAAA010000000100000024 /* InvestmentAdvisor */ = {
             isa = PBXNativeTarget;
-            buildConfigurationList = AAAAAA010000000100000026 /* Build configuration list for PBXNativeTarget "InvestmentAdvisor" */;
+            buildConfigurationList = AAAAAA010000000100000025 /* Build configuration list for PBXNativeTarget "InvestmentAdvisor" */;
             buildPhases = (
-                AAAAAA010000000100000027 /* Sources */,
-                AAAAAA010000000100000022 /* Frameworks */,
-                AAAAAA010000000100000028 /* Resources */,
+                AAAAAA010000000100000026 /* Sources */,
+                AAAAAA010000000100000021 /* Frameworks */,
+                AAAAAA010000000100000027 /* Resources */,
             );
             buildRules = (
             );
@@ -104,23 +103,23 @@
             );
             name = InvestmentAdvisor;
             productName = InvestmentAdvisor;
-            productReference = AAAAAA010000000100000021 /* InvestmentAdvisor.app */;
+            productReference = AAAAAA010000000100000020 /* InvestmentAdvisor.app */;
             productType = "com.apple.product-type.application";
         };
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-        AAAAAA010000000100000029 /* Project object */ = {
+        AAAAAA010000000100000028 /* Project object */ = {
             isa = PBXProject;
             attributes = {
                 LastUpgradeCheck = 1610;
                 TargetAttributes = {
-                    AAAAAA010000000100000025 = {
+                    AAAAAA010000000100000024 = {
                         CreatedOnToolsVersion = 16.1;
                     };
                 };
             };
-            buildConfigurationList = AAAAAA01000000010000002A /* Build configuration list for PBXProject "InvestmentAdvisor" */;
+            buildConfigurationList = AAAAAA010000000100000029 /* Build configuration list for PBXProject "InvestmentAdvisor" */;
             compatibilityVersion = "Xcode 14.0";
             developmentRegion = en;
             hasScannedForEncodings = 0;
@@ -128,32 +127,31 @@
                 en,
                 Base,
             );
-            mainGroup = AAAAAA010000000100000023;
-            productRefGroup = AAAAAA01000000010000002B /* Products */;
+            mainGroup = AAAAAA010000000100000022;
+            productRefGroup = AAAAAA01000000010000002A /* Products */;
             projectDirPath = "";
             projectRoot = "";
             targets = (
-                AAAAAA010000000100000025 /* InvestmentAdvisor */,
+                AAAAAA010000000100000024 /* InvestmentAdvisor */,
             );
         };
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-        AAAAAA010000000100000028 /* Resources */ = {
+        AAAAAA010000000100000027 /* Resources */ = {
             isa = PBXResourcesBuildPhase;
             buildActionMask = 2147483647;
             files = (
                 AAAAAA01000000010000001B /* LaunchScreen.storyboard in Resources */,
                 AAAAAA01000000010000001D /* Main.storyboard in Resources */,
                 AAAAAA010000000100000019 /* Assets.xcassets in Resources */,
-                AAAAAA01000000010000001F /* Info.plist in Resources */,
             );
             runOnlyForDeploymentPostprocessing = 0;
         };
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-        AAAAAA010000000100000027 /* Sources */ = {
+        AAAAAA010000000100000026 /* Sources */ = {
             isa = PBXSourcesBuildPhase;
             buildActionMask = 2147483647;
             files = (
@@ -175,7 +173,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-        AAAAAA01000000010000002C /* Debug */ = {
+        AAAAAA01000000010000002B /* Debug */ = {
             isa = XCBuildConfiguration;
             buildSettings = {
                 INFOPLIST_FILE = InvestmentAdvisor/Info.plist;
@@ -184,7 +182,7 @@
             };
             name = Debug;
         };
-        AAAAAA01000000010000002D /* Release */ = {
+        AAAAAA01000000010000002C /* Release */ = {
             isa = XCBuildConfiguration;
             buildSettings = {
                 INFOPLIST_FILE = InvestmentAdvisor/Info.plist;
@@ -193,7 +191,7 @@
             };
             name = Release;
         };
-        AAAAAA01000000010000002E /* Debug */ = {
+        AAAAAA01000000010000002D /* Debug */ = {
             isa = XCBuildConfiguration;
             buildSettings = {
                 ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -205,7 +203,7 @@
             };
             name = Debug;
         };
-        AAAAAA01000000010000002F /* Release */ = {
+        AAAAAA01000000010000002E /* Release */ = {
             isa = XCBuildConfiguration;
             buildSettings = {
                 ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -220,25 +218,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-        AAAAAA01000000010000002A /* Build configuration list for PBXProject "InvestmentAdvisor" */ = {
+        AAAAAA010000000100000029 /* Build configuration list for PBXProject "InvestmentAdvisor" */ = {
             isa = XCConfigurationList;
             buildConfigurations = (
-                AAAAAA01000000010000002E /* Debug */,
-                AAAAAA01000000010000002F /* Release */,
+                AAAAAA01000000010000002D /* Debug */,
+                AAAAAA01000000010000002E /* Release */,
             );
             defaultConfigurationIsVisible = 0;
             defaultConfigurationName = Release;
         };
-        AAAAAA010000000100000026 /* Build configuration list for PBXNativeTarget "InvestmentAdvisor" */ = {
+        AAAAAA010000000100000025 /* Build configuration list for PBXNativeTarget "InvestmentAdvisor" */ = {
             isa = XCConfigurationList;
             buildConfigurations = (
-                AAAAAA01000000010000002C /* Debug */,
-                AAAAAA01000000010000002D /* Release */,
+                AAAAAA01000000010000002B /* Debug */,
+                AAAAAA01000000010000002C /* Release */,
             );
             defaultConfigurationIsVisible = 0;
             defaultConfigurationName = Release;
         };
 /* End XCConfigurationList section */
     };
-    rootObject = AAAAAA010000000100000029 /* Project object */;
+    rootObject = AAAAAA010000000100000028 /* Project object */;
 }

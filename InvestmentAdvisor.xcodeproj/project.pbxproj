@@ -7,46 +7,46 @@
     objects = {
 
 /* Begin PBXBuildFile section */
-        00B38B0E207A5A3D0027D4E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B38B0D207A5A3D0027D4E2 /* AppDelegate.swift */; };
-        00B38B10207A5A3D0027D4E2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B38B0F207A5A3D0027D4E2 /* main.swift */; };
-        00B38B12207A5A3D0027D4E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B38B11207A5A3D0027D4E2 /* Assets.xcassets */; };
-        00B38B14207A5A3D0027D4E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B38B13207A5A3D0027D4E2 /* LaunchScreen.storyboard */; };
-        00B38B16207A5A3D0027D4E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00B38B15207A5A3D0027D4E2 /* Main.storyboard */; };
-        00B38B18207A5A3D0027D4E2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00B38B17207A5A3D0027D4E2 /* Info.plist */; };
-        00B38B1A207A5A3D0027D4E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B38B19207A5A3D0027D4E2 /* SceneDelegate.swift */; };
-        00B38B1C207A5A3D0027D4E2 /* StockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B38B1B207A5A3D0027D4E2 /* StockViewController.swift */; };
-        00B38B1E207A5A3D0027D4E2 /* FundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B38B1D207A5A3D0027D4E2 /* FundViewController.swift */; };
-        00B38B20207A5A3D0027D4E2 /* TradingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B38B1F207A5A3D0027D4E2 /* TradingViewController.swift */; };
-        00B38B22207A5A3D0027D4E2 /* StockDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B38B21207A5A3D0027D4E2 /* StockDataManager.swift */; };
-        00B38B24207A5A3D0027D4E2 /* FundDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B38B23207A5A3D0027D4E2 /* FundDataManager.swift */; };
-        00B38B26207A5A3D0027D4E2 /* TradingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B38B25207A5A3D0027D4E2 /* TradingManager.swift */; };
-        00B38B28207A5A3D0027D4E2 /* StockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B38B27207A5A3D0027D4E2 /* StockCell.swift */; };
-        00B38B2A207A5A3D0027D4E2 /* FundCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B38B29207A5A3D0027D4E2 /* FundCell.swift */; };
-        00B38B2C207A5A3D0027D4E2 /* PositionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B38B2B207A5A3D0027D4E2 /* PositionCell.swift */; };
+        AAAAAA010000000100000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAA010000000100000002 /* AppDelegate.swift */; };
+        AAAAAA010000000100000003 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAA010000000100000004 /* SceneDelegate.swift */; };
+        AAAAAA010000000100000005 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAA010000000100000006 /* main.swift */; };
+        AAAAAA010000000100000007 /* StockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAA010000000100000008 /* StockViewController.swift */; };
+        AAAAAA010000000100000009 /* FundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAA01000000010000000A /* FundViewController.swift */; };
+        AAAAAA01000000010000000B /* TradingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAA01000000010000000C /* TradingViewController.swift */; };
+        AAAAAA01000000010000000D /* StockDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAA01000000010000000E /* StockDataManager.swift */; };
+        AAAAAA01000000010000000F /* FundDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAA010000000100000010 /* FundDataManager.swift */; };
+        AAAAAA010000000100000011 /* TradingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAA010000000100000012 /* TradingManager.swift */; };
+        AAAAAA010000000100000013 /* StockCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAA010000000100000014 /* StockCell.swift */; };
+        AAAAAA010000000100000015 /* FundCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAA010000000100000016 /* FundCell.swift */; };
+        AAAAAA010000000100000017 /* PositionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAAA010000000100000018 /* PositionCell.swift */; };
+        AAAAAA010000000100000019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAAAAA01000000010000001A /* Assets.xcassets */; };
+        AAAAAA01000000010000001B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAAAAA01000000010000001C /* LaunchScreen.storyboard */; };
+        AAAAAA01000000010000001D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAAAAA01000000010000001E /* Main.storyboard */; };
+        AAAAAA01000000010000001F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAAAAA010000000100000020 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-        00B38B0D207A5A3D0027D4E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-        00B38B0F207A5A3D0027D4E2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-        00B38B11207A5A3D0027D4E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-        00B38B13207A5A3D0027D4E2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-        00B38B15207A5A3D0027D4E2 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-        00B38B17207A5A3D0027D4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-        00B38B19207A5A3D0027D4E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-        00B38B1B207A5A3D0027D4E2 /* StockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewController.swift; sourceTree = "<group>"; };
-        00B38B1D207A5A3D0027D4E2 /* FundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundViewController.swift; sourceTree = "<group>"; };
-        00B38B1F207A5A3D0027D4E2 /* TradingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingViewController.swift; sourceTree = "<group>"; };
-        00B38B21207A5A3D0027D4E2 /* StockDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDataManager.swift; sourceTree = "<group>"; };
-        00B38B23207A5A3D0027D4E2 /* FundDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundDataManager.swift; sourceTree = "<group>"; };
-        00B38B25207A5A3D0027D4E2 /* TradingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingManager.swift; sourceTree = "<group>"; };
-        00B38B27207A5A3D0027D4E2 /* StockCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCell.swift; sourceTree = "<group>"; };
-        00B38B29207A5A3D0027D4E2 /* FundCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundCell.swift; sourceTree = "<group>"; };
-        00B38B2B207A5A3D0027D4E2 /* PositionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionCell.swift; sourceTree = "<group>"; };
-        00B38B0C207A5A3D0027D4E2 /* InvestmentAdvisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvestmentAdvisor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        AAAAAA010000000100000002 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+        AAAAAA010000000100000004 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+        AAAAAA010000000100000006 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+        AAAAAA010000000100000008 /* StockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockViewController.swift; sourceTree = "<group>"; };
+        AAAAAA01000000010000000A /* FundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FundViewController.swift; sourceTree = "<group>"; };
+        AAAAAA01000000010000000C /* TradingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradingViewController.swift; sourceTree = "<group>"; };
+        AAAAAA01000000010000000E /* StockDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockDataManager.swift; sourceTree = "<group>"; };
+        AAAAAA010000000100000010 /* FundDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FundDataManager.swift; sourceTree = "<group>"; };
+        AAAAAA010000000100000012 /* TradingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradingManager.swift; sourceTree = "<group>"; };
+        AAAAAA010000000100000014 /* StockCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockCell.swift; sourceTree = "<group>"; };
+        AAAAAA010000000100000016 /* FundCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FundCell.swift; sourceTree = "<group>"; };
+        AAAAAA010000000100000018 /* PositionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionCell.swift; sourceTree = "<group>"; };
+        AAAAAA01000000010000001A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+        AAAAAA01000000010000001C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+        AAAAAA01000000010000001E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+        AAAAAA010000000100000020 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        AAAAAA010000000100000021 /* InvestmentAdvisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvestmentAdvisor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-        00B38B05207A5A3D0027D4E2 /* Frameworks */ = {
+        AAAAAA010000000100000022 /* Frameworks */ = {
             isa = PBXFrameworksBuildPhase;
             buildActionMask = 2147483647;
             files = (
@@ -56,48 +56,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-        00B38B02207A5A3D0027D4E2 = {
+        AAAAAA010000000100000023 = {
             isa = PBXGroup;
             children = (
-                00B38B0E207A5A3D0027D4E3 /* InvestmentAdvisor */,
-                00B38B0C207A5A3D0027D4E2 /* InvestmentAdvisor.app */,
+                AAAAAA010000000100000024 /* InvestmentAdvisor */,
+                AAAAAA010000000100000021 /* InvestmentAdvisor.app */,
             );
-            name = InvestmentAdvisor;
             sourceTree = "<group>";
         };
-        00B38B0E207A5A3D0027D4E3 /* InvestmentAdvisor */ = {
+        AAAAAA010000000100000024 /* InvestmentAdvisor */ = {
             isa = PBXGroup;
             children = (
-                00B38B0D207A5A3D0027D4E2 /* AppDelegate.swift */,
-                00B38B11207A5A3D0027D4E2 /* Assets.xcassets */,
-                00B38B29207A5A3D0027D4E2 /* FundCell.swift */,
-                00B38B23207A5A3D0027D4E2 /* FundDataManager.swift */,
-                00B38B1D207A5A3D0027D4E2 /* FundViewController.swift */,
-                00B38B17207A5A3D0027D4E2 /* Info.plist */,
-                00B38B13207A5A3D0027D4E2 /* LaunchScreen.storyboard */,
-                00B38B15207A5A3D0027D4E2 /* Main.storyboard */,
-                00B38B0F207A5A3D0027D4E2 /* main.swift */,
-                00B38B2B207A5A3D0027D4E2 /* PositionCell.swift */,
-                00B38B19207A5A3D0027D4E2 /* SceneDelegate.swift */,
-                00B38B27207A5A3D0027D4E2 /* StockCell.swift */,
-                00B38B21207A5A3D0027D4E2 /* StockDataManager.swift */,
-                00B38B1B207A5A3D0027D4E2 /* StockViewController.swift */,
-                00B38B25207A5A3D0027D4E2 /* TradingManager.swift */,
-                00B38B1F207A5A3D0027D4E2 /* TradingViewController.swift */,
+                AAAAAA010000000100000002 /* AppDelegate.swift */,
+                AAAAAA010000000100000004 /* SceneDelegate.swift */,
+                AAAAAA010000000100000006 /* main.swift */,
+                AAAAAA010000000100000008 /* StockViewController.swift */,
+                AAAAAA01000000010000000A /* FundViewController.swift */,
+                AAAAAA01000000010000000C /* TradingViewController.swift */,
+                AAAAAA01000000010000000E /* StockDataManager.swift */,
+                AAAAAA010000000100000010 /* FundDataManager.swift */,
+                AAAAAA010000000100000012 /* TradingManager.swift */,
+                AAAAAA010000000100000014 /* StockCell.swift */,
+                AAAAAA010000000100000016 /* FundCell.swift */,
+                AAAAAA010000000100000018 /* PositionCell.swift */,
+                AAAAAA01000000010000001A /* Assets.xcassets */,
+                AAAAAA01000000010000001C /* LaunchScreen.storyboard */,
+                AAAAAA01000000010000001E /* Main.storyboard */,
+                AAAAAA010000000100000020 /* Info.plist */,
             );
-            name = InvestmentAdvisor;
+            path = InvestmentAdvisor;
             sourceTree = "<group>";
         };
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-        00B38B0A207A5A3D0027D4E2 /* InvestmentAdvisor */ = {
+        AAAAAA010000000100000025 /* InvestmentAdvisor */ = {
             isa = PBXNativeTarget;
-            buildConfigurationList = 00B38B1E207A5A3D0027D4E4 /* Build configuration list for PBXNativeTarget "InvestmentAdvisor" */;
+            buildConfigurationList = AAAAAA010000000100000026 /* Build configuration list for PBXNativeTarget "InvestmentAdvisor" */;
             buildPhases = (
-                00B38B04207A5A3D0027D4E2 /* Sources */,
-                00B38B05207A5A3D0027D4E2 /* Frameworks */,
-                00B38B06207A5A3D0027D4E2 /* Resources */,
+                AAAAAA010000000100000027 /* Sources */,
+                AAAAAA010000000100000022 /* Frameworks */,
+                AAAAAA010000000100000028 /* Resources */,
             );
             buildRules = (
             );
@@ -105,251 +104,141 @@
             );
             name = InvestmentAdvisor;
             productName = InvestmentAdvisor;
-            productReference = 00B38B0C207A5A3D0027D4E2 /* InvestmentAdvisor.app */;
+            productReference = AAAAAA010000000100000021 /* InvestmentAdvisor.app */;
             productType = "com.apple.product-type.application";
         };
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-        00B38B01207A5A3D0027D4E2 /* Project object */ = {
+        AAAAAA010000000100000029 /* Project object */ = {
             isa = PBXProject;
             attributes = {
-                BuildIndependentTargetsInParallel = 1;
-                LastUpgradeCheck = 1640;
-                OrganizationName = "Investment Advisor";
+                LastUpgradeCheck = 1610;
                 TargetAttributes = {
-                    00B38B0A207A5A3D0027D4E2 = {
-                        CreatedOnToolsVersion = 16.4;
-                        DevelopmentTeam = "";
-                        ProvisioningStyle = Automatic;
-                        SystemCapabilities = {
-                            com.apple.SafariKeychain = {
-                                enabled = 1;
-                            };
-                        };
+                    AAAAAA010000000100000025 = {
+                        CreatedOnToolsVersion = 16.1;
                     };
                 };
             };
-            buildConfigurationList = 00B38B03207A5A3D0027D4E2 /* Build configuration list for PBXProject "InvestmentAdvisor" */;
-            compatibilityVersion = "Xcode 15.0";
+            buildConfigurationList = AAAAAA01000000010000002A /* Build configuration list for PBXProject "InvestmentAdvisor" */;
+            compatibilityVersion = "Xcode 14.0";
             developmentRegion = en;
             hasScannedForEncodings = 0;
             knownRegions = (
                 en,
                 Base,
             );
-            mainGroup = 00B38B02207A5A3D0027D4E2;
-            productRefGroup = 00B38B0D207A5A3D0027D4E1 /* Products */;
+            mainGroup = AAAAAA010000000100000023;
+            productRefGroup = AAAAAA01000000010000002B /* Products */;
             projectDirPath = "";
             projectRoot = "";
             targets = (
-                00B38B0A207A5A3D0027D4E2 /* InvestmentAdvisor */,
+                AAAAAA010000000100000025 /* InvestmentAdvisor */,
             );
         };
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-        00B38B06207A5A3D0027D4E2 /* Resources */ = {
+        AAAAAA010000000100000028 /* Resources */ = {
             isa = PBXResourcesBuildPhase;
             buildActionMask = 2147483647;
             files = (
-                00B38B14207A5A3D0027D4E2 /* LaunchScreen.storyboard in Resources */,
-                00B38B16207A5A3D0027D4E2 /* Main.storyboard in Resources */,
-                00B38B12207A5A3D0027D4E2 /* Assets.xcassets in Resources */,
-                00B38B18207A5A3D0027D4E2 /* Info.plist in Resources */,
+                AAAAAA01000000010000001B /* LaunchScreen.storyboard in Resources */,
+                AAAAAA01000000010000001D /* Main.storyboard in Resources */,
+                AAAAAA010000000100000019 /* Assets.xcassets in Resources */,
+                AAAAAA01000000010000001F /* Info.plist in Resources */,
             );
             runOnlyForDeploymentPostprocessing = 0;
         };
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-        00B38B04207A5A3D0027D4E2 /* Sources */ = {
+        AAAAAA010000000100000027 /* Sources */ = {
             isa = PBXSourcesBuildPhase;
             buildActionMask = 2147483647;
             files = (
-                00B38B0E207A5A3D0027D4E2 /* AppDelegate.swift in Sources */,
-                00B38B10207A5A3D0027D4E2 /* main.swift in Sources */,
-                00B38B1A207A5A3D0027D4E2 /* SceneDelegate.swift in Sources */,
-                00B38B1C207A5A3D0027D4E2 /* StockViewController.swift in Sources */,
-                00B38B1E207A5A3D0027D4E2 /* FundViewController.swift in Sources */,
-                00B38B20207A5A3D0027D4E2 /* TradingViewController.swift in Sources */,
-                00B38B22207A5A3D0027D4E2 /* StockDataManager.swift in Sources */,
-                00B38B24207A5A3D0027D4E2 /* FundDataManager.swift in Sources */,
-                00B38B26207A5A3D0027D4E2 /* TradingManager.swift in Sources */,
-                00B38B28207A5A3D0027D4E2 /* StockCell.swift in Sources */,
-                00B38B2A207A5A3D0027D4E2 /* FundCell.swift in Sources */,
-                00B38B2C207A5A3D0027D4E2 /* PositionCell.swift in Sources */,
+                AAAAAA010000000100000001 /* AppDelegate.swift in Sources */,
+                AAAAAA010000000100000003 /* SceneDelegate.swift in Sources */,
+                AAAAAA010000000100000005 /* main.swift in Sources */,
+                AAAAAA010000000100000007 /* StockViewController.swift in Sources */,
+                AAAAAA010000000100000009 /* FundViewController.swift in Sources */,
+                AAAAAA01000000010000000B /* TradingViewController.swift in Sources */,
+                AAAAAA01000000010000000D /* StockDataManager.swift in Sources */,
+                AAAAAA01000000010000000F /* FundDataManager.swift in Sources */,
+                AAAAAA010000000100000011 /* TradingManager.swift in Sources */,
+                AAAAAA010000000100000013 /* StockCell.swift in Sources */,
+                AAAAAA010000000100000015 /* FundCell.swift in Sources */,
+                AAAAAA010000000100000017 /* PositionCell.swift in Sources */,
             );
             runOnlyForDeploymentPostprocessing = 0;
         };
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-        00B38B07207A5A3D0027D4E2 /* Debug */ = {
+        AAAAAA01000000010000002C /* Debug */ = {
             isa = XCBuildConfiguration;
             buildSettings = {
-                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-                ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-                CLANG_ANALYZER_NONNULL = YES;
-                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-                CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-                CLANG_ENABLE_MODULES = YES;
-                CLANG_ENABLE_OBJC_ARC = YES;
-                CLANG_ENABLE_OBJC_WEAK = YES;
-                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-                CLANG_WARN_BOOL_CONVERSION = YES;
-                CLANG_WARN_COMMA = YES;
-                CLANG_WARN_CONSTANT_CONVERSION = YES;
-                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-                CLANG_WARN_EMPTY_BODY = YES;
-                CLANG_WARN_ENUM_CONVERSION = YES;
-                CLANG_WARN_INFINITE_RECURSION = YES;
-                CLANG_WARN_INT_CONVERSION = YES;
-                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-                CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-                CLANG_WARN_STRICT_PROTOTYPES = YES;
-                CLANG_WARN_SUSPICIOUS_MOVE = YES;
-                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-                CLANG_WARN_UNREACHABLE_CODE = YES;
-                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-                COPY_PHASE_STRIP = NO;
-                DEBUG_INFORMATION_FORMAT = dwarf;
-                ENABLE_STRICT_OBJC_MSGSEND = YES;
-                ENABLE_TESTABILITY = YES;
-                GCC_C_LANGUAGE_STANDARD = gnu17;
-                GCC_DYNAMIC_NO_PIC = NO;
-                GCC_OPTIMIZATION_LEVEL = 0;
-                GCC_PREPROCESSOR_DEFINITIONS = (
-                    "DEBUG=1",
-                    "$(inherited)",
-                );
-                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-                GCC_WARN_UNDECLARED_SELECTOR = YES;
-                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-                GCC_WARN_UNUSED_FUNCTION = YES;
-                GCC_WARN_UNUSED_VARIABLE = YES;
-                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-                MT_ENABLE_APPLE_WATCH_EXTENSIONS = NO;
-                ONLY_ACTIVE_ARCH = YES;
-                SDKROOT = iphoneos;
-                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-                VALIDATE_PRODUCT = YES;
+                INFOPLIST_FILE = InvestmentAdvisor/Info.plist;
+                PRODUCT_BUNDLE_IDENTIFIER = com.example.InvestmentAdvisor;
+                SWIFT_VERSION = 5.0;
             };
             name = Debug;
         };
-        00B38B08207A5A3D0027D4E2 /* Release */ = {
+        AAAAAA01000000010000002D /* Release */ = {
             isa = XCBuildConfiguration;
             buildSettings = {
-                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-                ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-                CLANG_ANALYZER_NONNULL = YES;
-                CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-                CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-                CLANG_ENABLE_MODULES = YES;
-                CLANG_ENABLE_OBJC_ARC = YES;
-                CLANG_ENABLE_OBJC_WEAK = YES;
-                CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-                CLANG_WARN_BOOL_CONVERSION = YES;
-                CLANG_WARN_COMMA = YES;
-                CLANG_WARN_CONSTANT_CONVERSION = YES;
-                CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-                CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-                CLANG_WARN_EMPTY_BODY = YES;
-                CLANG_WARN_ENUM_CONVERSION = YES;
-                CLANG_WARN_INFINITE_RECURSION = YES;
-                CLANG_WARN_INT_CONVERSION = YES;
-                CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-                CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-                CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-                CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-                CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-                CLANG_WARN_STRICT_PROTOTYPES = YES;
-                CLANG_WARN_SUSPICIOUS_MOVE = YES;
-                CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-                CLANG_WARN_UNREACHABLE_CODE = YES;
-                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-                COPY_PHASE_STRIP = YES;
-                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-                ENABLE_NS_ASSERTIONS = NO;
-                ENABLE_STRICT_OBJC_MSGSEND = YES;
-                GCC_C_LANGUAGE_STANDARD = gnu17;
-                GCC_PREPROCESSOR_DEFINITIONS = (
-                    "RELEASE=1",
-                    "$(inherited)",
-                );
-                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-                GCC_WARN_UNDECLARED_SELECTOR = YES;
-                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-                GCC_WARN_UNUSED_FUNCTION = YES;
-                GCC_WARN_UNUSED_VARIABLE = YES;
-                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-                MT_ENABLE_APPLE_WATCH_EXTENSIONS = NO;
-                SDKROOT = iphoneos;
-                SWIFT_COMPILATION_MODE = wholemodule;
-                SWIFT_OPTIMIZATION_LEVEL = "-O";
-                VALIDATE_PRODUCT = YES;
+                INFOPLIST_FILE = InvestmentAdvisor/Info.plist;
+                PRODUCT_BUNDLE_IDENTIFIER = com.example.InvestmentAdvisor;
+                SWIFT_VERSION = 5.0;
             };
             name = Release;
         };
-        00B38B09207A5A3D0027D4E2 /* Debug */ = {
+        AAAAAA01000000010000002E /* Debug */ = {
             isa = XCBuildConfiguration;
             buildSettings = {
                 ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
                 ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-                INFOPLIST_FILE = InvestmentAdvisor/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-                PRODUCT_BUNDLE_IDENTIFIER = com.example.InvestmentAdvisor;
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_VERSION = 5.0;
+                CLANG_ENABLE_MODULES = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+                MARKETING_VERSION = 1.0;
+                SWIFT_EMIT_LOC_STRINGS = YES;
             };
             name = Debug;
         };
-        00B38B0A207A5A3D0027D4E2 /* Release */ = {
+        AAAAAA01000000010000002F /* Release */ = {
             isa = XCBuildConfiguration;
             buildSettings = {
                 ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
                 ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-                INFOPLIST_FILE = InvestmentAdvisor/Info.plist;
-                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-                PRODUCT_BUNDLE_IDENTIFIER = com.example.InvestmentAdvisor;
-                PRODUCT_NAME = "$(TARGET_NAME)";
-                SWIFT_VERSION = 5.0;
+                CLANG_ENABLE_MODULES = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+                MARKETING_VERSION = 1.0;
+                SWIFT_EMIT_LOC_STRINGS = YES;
             };
             name = Release;
         };
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-        00B38B03207A5A3D0027D4E2 /* Build configuration list for PBXProject "InvestmentAdvisor" */ = {
+        AAAAAA01000000010000002A /* Build configuration list for PBXProject "InvestmentAdvisor" */ = {
             isa = XCConfigurationList;
             buildConfigurations = (
-                00B38B07207A5A3D0027D4E2 /* Debug */,
-                00B38B08207A5A3D0027D4E2 /* Release */,
+                AAAAAA01000000010000002E /* Debug */,
+                AAAAAA01000000010000002F /* Release */,
             );
             defaultConfigurationIsVisible = 0;
             defaultConfigurationName = Release;
         };
-        00B38B1E207A5A3D0027D4E4 /* Build configuration list for PBXNativeTarget "InvestmentAdvisor" */ = {
+        AAAAAA010000000100000026 /* Build configuration list for PBXNativeTarget "InvestmentAdvisor" */ = {
             isa = XCConfigurationList;
             buildConfigurations = (
-                00B38B09207A5A3D0027D4E2 /* Debug */,
-                00B38B0A207A5A3D0027D4E2 /* Release */,
+                AAAAAA01000000010000002C /* Debug */,
+                AAAAAA01000000010000002D /* Release */,
             );
             defaultConfigurationIsVisible = 0;
             defaultConfigurationName = Release;
         };
 /* End XCConfigurationList section */
     };
-    rootObject = 00B38B01207A5A3D0027D4E2 /* Project object */;
+    rootObject = AAAAAA010000000100000029 /* Project object */;
 }
